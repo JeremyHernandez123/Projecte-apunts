@@ -1,0 +1,164 @@
+<!DOCTYPE html> 
+<html lang="ca"> 
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="descriotion" content="Aquesta web ofereix explicacions sobre els anàlisis i interpretació de fragments de codi">
+	<meta name="author" content="Jeremy Samuel Hernández Fraga"> 
+	<meta name="robots" content="index, follow">
+	<Title> Unitat 1 </Title>
+</head>
+<body> 
+	<h1> Unitat 1: Anàlisis i interpretació de fragments de codi </h1>
+</body>
+ 	<h2> Continguts </h2>
+ 		<ol> 
+ 			<li> Les dades </li>	
+ 			<li> L'emmagatzematge de dades </li>	
+ 			<li> Introducció als llenguatges de marques </li>	
+ 			<li> Classificació dels llemguatges de marques </li>	
+ 		</ol>
+ 	<h2> Les dades </h2>
+ 	 <p> Les dades són <b> representacions d'aspectes del món real </b> que recullen per fer càlculs, mostrar-les, organitzar-les, etc. L'objectiu és que posteriorment algú pugui fer alguna cosa amb elles, com prendre decisions o generar noves dades. </p>
+ 	
+ 	 <p> <b> Exemple: </b> <br> Una base de dades pot contenir dades sobre un vehicle, com ara la marca, el model, l'any de fabricació, el consum de combustible, el kilometratge i l'historial de manteniments. Aquestes dades poden ser analitzades per optimitzar els serves d'una empresa ade lloguer de  vehicles.</p>
+
+ 	 <h3> Característiques de les dades </h3>
+ 	 	<ul>
+ 	 		<li> <h4>  A qui van dirigides (Destinataris):</h4> </li>
+ 	 			<ul>	
+ 	 				<li> <b> Humans: </b> </li>
+ 	 			
+ 	 					<p> Quan les dades estan destinades a éssers humans, sovint necessiten una estructura específica i comprensible. Això inclou formats llegibles com taules, gràfics o informes, que ajuden a organitzar i interpretar la informació fàcilment. Per exemple, una taula de resultats financers ha de ser clara i fàcil d'entendre per a qui la llegeix. </p>
+ 	 			
+ 	 				<li> <b> Programes o màquines </b> </li>
+ 	 					<p> En canvi quan les dades estan destinades a ser processades per programes informàtics, cal que estiguin estructurades de manera que siguin fàcilment processables i identificables. Això inclou l'ús de formats estàndars com el JSON, XML, o CSV, que permeten que els sistemes automàticament entenguin i processin aquestes dades sense la intervenció hunmana directa. </p>
+
+ 	 		</ul>
+ 	 			<li> <h4> Reutilització de les dades </h4> </li>
+ 	 				<ul>
+ 	 					<li> Les dades, una vegada recollides, poden ser <b> reutilitzades en múltiples contextos. </b> Això és especialment important en sectors com la ciència, on les dades poden servir per a diversos estudis o experiments. <b> Perquè això sigui possible, és essencial que les dades s'emmagatzemin de manera ordenada, estructurada i amb metadades </b> (Informació que descriu les dades) que en faciliti la comprensió i la reutilització futura. Una base de dades ben estructurada, amb etiquetes clares i bon sistema de catalogació, facilita aquesta reutilització. </li>
+ 	 				</ul>
+ 	 			<li> <h4> Compartició de les dades </h4> </li>
+ 	 				<ul> 
+ 	 					<li> Amb l'evolució de la tecnoligia i la globalització, <b> la compartició de dades s'ha tornat més rellevant.</b> Ara és molt comú que les dades que es generen en una part del món puguin ser utilitzades en un altre lloc gairebé en temps real, gràcies a Internet. <b> Aquest fer requereix sistemes d'emmagatzematge i transmissió eficients i segurs. </b> A més, és important utilitzar <b> estàndarts oberts o formats compatibles </b> que permetin aquesta transferència sense pèrdua de dades o errors de comprensió. </li>
+ 	 				</ul>
+	 	</ul>
+
+	 <h2> L'emmagatzematge de dades </h2>
+	 	<p> L'emmagatzematge de dades és un component clau en els sistemes infotmàtics, ja que permet la representació, manipulació i recuperació d'informació de manera eficient. </p>
+	 	
+	 	<p> Les dades en ordinadors es representen utilitzant el <b> Format binari </b>, que consisteix en una sèrie de digits, coneguts com <b> bits </b>, que poden tenir valor de <b> 1 o 0 </b>. Aquesta representació és la base del funcionament de qualsevol sistema informàtic, ja que els ordinadors processen la informació mitjançant operacions binàries. </p>
+
+	 <h3> Classificació de dades  </h3>
+	 <h4> Les dades de text: </h4>
+	 	<ol> 
+	 		<li> Les <b> dades de text </b> són llegibles per humans i estructurades mitjançant codificacions de càracters, com <b>ASCII </b> o <b> Unicode </b>. Això significa que cada lletra, número o símbol es representa a través d'un codi específoc que després es tradueix a binari.</li> <br>
+
+	 		<li> Aquest tipus de dades es troben sovint en documents, correus electrònics o pàgines web, on és essencial mantenir la llegibilitat per a les persones. El format text és molt flexible i fàcil d'editar, però també pot ser menys eficient en termes d'emmagatzematge en comparació amb altres formats més compactes. </li>
+	 	</ol>
+	 	<img src="C:\Users\jerem\OneDrive\Documentos\Projecte Apunts\Estorage\Les dades de text.png" alt="Les dades de text" style="width: 60%"> 
+
+	 <h4> Dades binàries: </h4>
+	 	<ol> 
+	 		<li> Les <b> dades binàries </b> són dades que no segueixen una estructura definida que pugui ser fàcilment llegida per humans. <b> Inclouen fitxers com imatges, vídeos, àudio, i altres formats multimèdia, </b> que es codifiquen directament en bits sense que els humans puguin interpretar-los sense programa especialitzat. </li> <br>
+
+	 		<li> A més de la informació principal, les dades binàries poden incloure <b> metadades </b>, que són dades addicionals que <b> descriuen el contingut o altres propietats del fitxer. </b> Per exemple, en una fotografia, les metadades poden incloure informació com la data en què es va fer la foto, el dispositiu utilitzat, i altres detalls rellevants.  </li> <br> 
+
+	 		<li> Aqiestes dades poden requerir més espai d'emmagatzematge i són <b> manipulades per programes especialitzats </b> que saben com interpretar els bits que conformen.  </li>
+	 	</ol>
+	 <h4> Metadades: </h4>
+
+	 <p> Les <b> metadades </b> són infomació addicional que descriu o proporciona context sobre les dades principals. Aquestes dades sobre les dades poden icloure <b> informació com el tipus de fitxer, la data de creació, l'autor, les etiquetes de classificació, o fins i tot detalls tècnics </b> sobre com s'ha creat o editat el fitxer. Les metadades són extremadament <b> útils per organitzar, buscar i interpretar </b> la informació emmagatzemada, ajudant a optimitzar processos com l'arxivat o la indexació de documents. </p>
+		 <ol> 
+	 		<li> <b> Funció: Optimitzen l'emmagatzematge i la recuperació d'informació, </b> ja que permeten als sistemes saber què són les dades ic com s'han d'interpretar sense necessitats de llegir tot el contingut del fitxer. Per exemple, en una fotografia digital, les metadades poden icloure informació sobre la càmara, la data, l'exposició, la ubicació GPS on es ca prendre la imatge.</li> <br>
+
+	 		<li> <b> Problemes potencials: </b> Les metadades poden causar complicacions en al compartició de dades entre sistemes. <b> Si el programa o sistema que intenta recuperar la informació no entén o no coneix el fotmat de les metadades,</b> pot no ser capaç d'interpretar correctament les dades principals. Això pot provocar pèrdua d'informació o problemes de compatibilitat. </li>
+	 	</ol>
+
+	 <h3> Formats de fitxer </h3>
+	 	<P> Els <b> formats de fitxer </b> defineixen com es representen les dades dins d'un fitxer. Diferents formats tenen diferents estructures i usos, depenent del tipus de dades que es necessiten emmagatzemar </P>
+
+	 <h4> CSV (Comma-Separated Value) </h4>
+	 	<ul> 
+	 		<li> <b> Descripció: </b> Un format de fitxer molt senzill que utilitza línies de text per representar dades, on cada camp d'informació està separat per comes. Per exemple, es pot utilitzar per guardar taules de dades o fulls de càlcul</li> <br> 
+	 		<li> <b> Avantatges: </b> És fàcil de generar i llegir per a la majoria de programes i llenguatges de programació. No requereix eines especialitzades i és compatible amb gairebé qualsevol plataforma, la qual cosa el fa molt popular per a l'intercanvi de dades. </li> <br>
+	 		<li> <b> Inconvenients: </b> Té limitacions en la capacitat per gestionar dades complexes, com quan les dades contenen comes dins els seus camps. A més, no inclou metadades, per la qual cosa no permet descriure el contingut o l'estructura de les dades amb tant detall com altres formats més avançats. </li>
+	 	</ul>
+	 <h4> Fitxers de marques (XML, HTML, etc.): </h4>
+	 <ul> 
+	 		<li> <b> Descripció: </b> Aquest tipus de fitxers combina elements de fitxers de text i binaris. Estan estructurades mitjançant etiquetes o marques, que defineixen tant les dades com la seva estructura. </li> <br> 
+	 		<li> <b> Avantatges: </b> Peremeten incorporar <b> metadades </b> juntament amb les dades principals, oferint una estructura més rica i flexible. Els fitxers de marques són autodescriptius, és a dir, contenen informació sobre el tipus i l'estructura de les dades.  </li> <br>
+	 		<li> <b> Inconvenients: </b> Aquest fitxers <b> poden ser més grans i menys eficients </b> que altres formats més simples com CSV, a causa de la quantitat d'informació addicional que incluen. A més necessiten eines més avançades per processar-los. </li>
+	 	</ul>
+	 
+	 <h2> Introducció als llenguatges de marques </h2>
+	 	<p> Els llenguatges de marques són sistemes de codificació que permeten estructurar i presentar informació de manera que sigui comprensible tant per humans com per a màquines. Aquests llenguatges utilitzen etiquetes per identifcar diferents parts del contingut, facilitant la seva interpretació i manipulació. </p>
+	 	<img src="C:\Users\jerem\OneDrive\Documentos\Projecte Apunts\Estorage\Introducció als llenguatges de marques.png" alt="Introducció als llenguatges de marques" style="width: 60%"> 
+
+	 <h2> Classificació de llenguatges de marques </h2>
+	 <h3> Llenguatges procedimentals i de presentaci </h3>	
+	 	<ul> 
+	 		<li> Com <b> HTML, defineixen com es mostraran les dades, centrant-se en la seva estructura i format visual. </b> HTML organitza els elements d'una pàgina web (textos, imatges, enllaços), mentre que <b> CSS </b> s'encarrega d'estilitzar aquest elements per donarlos un aspecte atractiu i coherent en els navegadors.  </b> </li> <br> 
+	 	</ul>
+	 <h3> Llenguatges descriptius </h3> 
+	 	<ul> 
+	 		<li> Com <b> XML i JSON, </b> desciuen l'estructura de les dades sense indicar com s'han de mostrar. Són com una llista d'elements: <b> XML </b> detalla els components amb precisió, mentre que <b> JSON </b> ofereix una versió més simple i fàcil de llegir. </li>
+	 	</ul> <br> 
+
+	 <h3> HTML (HyperText Markup Language) </h3>
+	 	<p> <b> HTML </b> és un llenguatge de marques dissenyat específicament per a la presentació d'informació a la web. A diferència de XML, HTML se centra en com mostra la informació, però presenta limitacions en la reutilització de la informació i en la seva interpretació per programes automàtics. <b> HTML ha estat un dels primers llenguatges de marques utilitzats per crear pàgines web, </b> i la seva evolució ha estat influencia per la neccesitat de millorar la inteegració amb els usuaris i al presentació de continguts. </p>
+	 <h3> XML (eXtensible Markup Language) </h3>
+	 	<p> <b> XML </b> és un llenguatge de marques que destaca per la seva capacitat d'extensibilitat. <b> Permet la definició de documents amb etiquetes personalitzades, la qual cosa fa molt útil en diverses aplicacions, </b> com la presentació de pàgines web i la gestió de dades. XML permet una millor estructuració i reutilització de les dades, separant clarament les dades de la seva presentació.</p>
+	 <h3> JSON (JavaScript Object Notation) </h3>
+	 	<p> <b> JSON </b> a dia d'avui ha guanyat molta popularitat com alternativa a XML per a l'intercanvi de dades, especialment en aplicacions web. A diferència de XML, <b> JSON utilitza una sintaxi més lleugera i fàcil de llegir tant per humans com per a màquines, </b> cosa que fa més eficient en termes de transmissió processament de dades. </p>
+
+	 <img src="C:\Users\jerem\OneDrive\Documentos\Projecte Apunts\Estorage\Classificació de llenguatges de marques.png" alt="Classificació llenguatges de marques" style="width: 60%">
+
+	 <h3> Quan utilizar cada un: </h3>
+	 <h4> XML/JSON: </h4>
+	 	<ol>
+	 		<li> <b> Configuració d'aplicacions: </b> Definir les opcions i preferències d'una aplicació.  </li> 
+	 		
+	 		<li> <b> Intercanvi de dades: </b> Transmetre dades entre diferents sistemes (per exemple, entre un servidor i una aplicació mòbil.) </li>
+	 		
+	 		<li> <b> Creació de formats de dades persinalitzats: </b> Definir estructures de dades específicques per a una aplicació o domini. </li> 
+
+	 	</ol>
+
+	 <h4> HTML </h4>
+	 	<ol>
+	 		<li> <b> Creació de pàgines web: </b> Donar estructura i contingut a les pàgines web  </li> 
+	 		
+	 		<li> <b> Disseny d'interfícies d'usuari: </b> Crear l'aparença visual d'una pàgina web </li>
+	 		
+	 		<li> <b> Fer que el contingut sigui accesible: </b> Assegurar que les persones amb discapacitats puguin accedir al contingut d'una pàgina web.</li> 
+	 	</ol>
+
+	 <h2> Estructura i regles sintàctiques </h2>
+	 	
+	 	<h3> HTML </h3>
+	 		<P> L' <b> HTML </b> és un llenguatge de marques que s'utilitza per estructurar continguts web. Segueix una estructura jeràrquica on hi ha etiquetes d'obertura i tancament, i una sintaxi ben definida que el navegador ha d'interpretar correctament. </P>
+	 	
+	 	<h4> Regles sintàctiques </h4>
+	 		<ol> 
+	 			<li> Cada etiqueta d'obertura (< h1 >) ha de tenir la seva corresponent etiqueta de tancament (< /h1 >). </li>
+	 			<li> L'estructura ha de seguir un ordre correcte: dins del body no poden haver-hi elements de capçelera (< head >) </li>
+	 		</ol>
+	 	<h4> Exemple d'estructura HTML: </h4>
+
+	 	<img src="C:\Users\jerem\OneDrive\Documentos\Projecte Apunts\Estorage\Exemple estructura HTML.png" alt="Classificació llenguatges de marques" style="width: 25%">
+	 	
+	 	<h4> Problemes de documents mal formats </h4>
+	 		<p> Si un document HTML està mal format, pot provocar que la pàgina web es mostri incorrectament o que algunes parts no es visualitzin.	
+	 	<h4> Exemple de documetns mal formats </h4>
+	 	
+	 	<img src="C:\Users\jerem\OneDrive\Documentos\Projecte Apunts\Estorage\Exemple mal formats.png" style="width: 25%">
+	 	
+	 	<h4> Espais de noms </h4>
+	 		<p> En <b> HTML </b>, els espais de noms no són tan utilitzats com XML, però són importants en casos d'embedat de llenguatges o tecnologia externa, com <b> SVG </b> (gràfics vectorials escalables). </p>
+
+	 	 	<img src="C:\Users\jerem\OneDrive\Documentos\Projecte Apunts\Estorage\Espais de noms.png" style="width: 35%">
+	 	 	<p> <b> Avantatges: </b> L'us de l'espai de noms xmlns per a <b> SVG </b> permet que el navegador sàpiga que el contingut dins d'aquestes etiquetes és gràfic vectorial, no HTML. </p> 
+		 	<!-- seguir la pàgina 19 de la unitat 1 --> 
+</html>
